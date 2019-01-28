@@ -1,5 +1,8 @@
 package kafka.avro
 
-class AvroExamplePayload {
+case class AvroExamplePayload
+(
+		text: String = ""
+)
 
-}
+

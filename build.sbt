@@ -15,5 +15,8 @@ libraryDependencies ++= Seq(
 	"io.confluent" % "kafka-streams-avro-serde" % "4.1.0",
 	"io.confluent" % "kafka-schema-registry-client" % "4.1.0",
 	// other
-	"de.huxhorn.sulky" % "de.huxhorn.sulky.ulid" % "8.2.0"
+	"de.huxhorn.sulky" % "de.huxhorn.sulky.ulid" % "8.2.0",
+
+	// test
+	"org.scalatest" %% "scalatest" % "3.0.5" % Test
 )
